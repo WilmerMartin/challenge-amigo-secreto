@@ -63,7 +63,7 @@ function sortearAmigo() {
     actualizarListaAmigos();
 }
 
-// Opcional: Permitir agregar nombres presionando Enter
+//Permitir agregar nombres presionando Enter
 document.getElementById('amigo').addEventListener('keypress', function (e) {
     if (e.key === 'Enter') {
         agregarAmigo();
