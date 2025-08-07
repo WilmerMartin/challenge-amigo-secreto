@@ -58,9 +58,9 @@ function sortearAmigo() {
     resultadoItem.className = 'result-item';
     resultadoHTML.appendChild(resultadoItem);
 
-    // Opcional: Eliminar el amigo sorteado de la lista
-    // listaAmigos.splice(indiceAleatorio, 1);
-    // actualizarListaAmigos();
+    //Eliminar el amigo sorteado de la lista
+    listaAmigos.splice(indiceAleatorio, 1);
+    actualizarListaAmigos();
 }
 
 // Opcional: Permitir agregar nombres presionando Enter
